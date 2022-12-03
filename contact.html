@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title> Contact us at All Eye Know Beauty </title>
+       <link href="base.css" type="text.css" rel="stylesheet"/>
+       <link href="style1.css" type="text/css" rel="stylesheet"/>
+       <link href="layout_style.css" type="text/css" rel="stylesheet"/>
+   </head>
+   <body>
+    <div id="layout"></div>
+      <header>
+         <h1>AllEyeKnowBeauty.com</h1>
+	 <h4>Let our lashes do the talking.</h4>
+      </header>
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Lashes and Accessories</a></li>
+          </ul>
+      </nav>
+	 <section><h2>Contact Us</h2></section>
+      <main>
+           <div class="container">
+            <form action="mailto:fernanda.rodriguez@ucdenver.edu" method="POST" id="contact" name="frmContact">
+              <fieldset>
+               <legend> Your Contact Information</legend>
+               <div class="formRow">
+                  <label for="name">First and Last Name:</label>
+                  <input type="text" name="name" id="name" size="20" placeholder="Your first and last name..." required/>
+              </div>
+              <div class="formrow">
+                  <label for="email">Email Address:</label>
+                  <input type="text" name="email" id="email" size="20" placeholder="Your email address..." required/>
+              </div>
+              <div class="formrow">
+                  <label for="phone">Phone Number:</label>
+                  <input type="text" name="phone" id="phone" size="20" placeholder="Your phone number..."/>
+              </div>
+              </fieldset>
+              <fieldset>
+                <legend> Your Request</legend>
+                <label for="Request">Request:</label>
+                <select id="Request" name="Request">
+                  <option value="question">Questions</option>
+                  <option value="concern">Concern</option>
+                  <option value="other">Other</option>
+                </select>
+                <div class="formrow">
+                  <label for="text">Subject:</label>
+                  <input type="text" name="Subject" id="Subject" size="20" placeholder="Your subject..." required/>
+                </div>
+                <label id="Comments" for="Comments">Your Comment:</label><br />
+                 <textarea name="Comments" id="Comments" rows="5" cols="60" required> </textarea> <br />
+              </fieldset>
+              <fieldset>
+                <legend> Do you want to be in our mailing list?</legend>
+                 <input type="checkbox" name="yes" id="yes" value="1" /><label for="yes">Yes</label>
+                 <input type="checkbox" name="no" id="no" value="2" /><label for="no">No</label>
+              </fieldset>
+              <input type="submit" value="Submit">
+            </form> 
+          </div>
+
+      </main>
+      <footer>
+         <p>Copyright 2022 by Fernanda Rodriguez</p>
+      </footer>
+    </div>
+   </body>
+</html>

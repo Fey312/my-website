@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title> All Eye Know Beauty Products </title>
+       <link href="base.css" type="text/css" rel="stylesheet"/> 
+       <link href="style1.css" type="text/css" rel="stylesheet"/>
+       <link href="layout_style.css" type= "text/css" rel="stylesheet"/>
+       <script type= "text/javascript" src="wishlist.js"> async</script>
+   </head>
+   <body>
+    <div id="layout"></div>
+      <header>
+         <h1>AllEyeKnowBeauty.com</h1>
+	    <h4>Let our lashes do the talking.</h4>
+      </header>
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Lashes and Accessories</a></li>
+          </ul>
+      </nav>
+    <section><h2>Lashes and Accessories</h2></section>
+      <main>
+        <div class="wrapper">
+            <div class="box a" id="item1">
+              <img src="images/strip lash 1.jpg">
+              <h1>Angel</h1>
+              <p>Mink Lash</p>
+              <p class="price">$10.99</p>
+              <form><input onclick="addItem(item1)" type="button" value="+ Add to List" id="1"/></form>
+            </div>
+            <div class="box b" id="item2">
+              <img src="images/strip lash 2.jpg">
+              <h1>Butterfly</h1>
+              <p>Mink Lash</p>
+              <p class="price">$10.99</p>
+              <form><input onclick="addItem(item2)" type="button" value="+ Add to List" id="2"/></form>
+            </div>
+            <div class="box c" id="item3">
+              <img src="images/lash tweezers.png">
+              <h1>Lash Tweezers</h1>
+              <p>Stainless steal tweezers with a diamond grip tip</p>
+              <p class="price">$8.99</p>
+              <form><input onclick="addItem(item3)" type="button" value="+ Add to List" id="3"/></form>
+            </div>
+            <div class="box d" id="item4">
+              <img src="images/lash glue.jpg">
+              <h1>Lash Glue</h1>
+              <p>Keep lashes on for 16-hrs</p>
+              <p class="price">$6.99</p>
+              <form><input onclick="addItem(item4)" type="button" value="+ Add to List" id="4"/></form>
+            </div>
+        </div>
+        
+        </div> 
+      </main>
+      <aside>
+        <div class="wishlist" id="wishlist">
+          <div class="title"> Wish List</div><hr/>
+          <div id="title"></div>
+      </aside>
+      <footer>
+        <p>Copyright 2022 by Fernanda Rodriguez</p>
+      </footer>
